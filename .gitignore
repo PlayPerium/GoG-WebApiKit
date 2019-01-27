@@ -1,0 +1,7 @@
+# VS - Configs
+appsettings.json
+
+# VS
+/.vs/
+bin/
+obj/
