@@ -1,8 +1,5 @@
 version: "0.0.1 #{build}"
 
-platform:
-  - x64
-
 image:
 - Visual Studio 2017
 - Ubuntu
@@ -11,6 +8,7 @@ init:
   - git config --global core.autocrlf input
 
 install:
+  - dotnet --version
   - dotnet restore Gog-WebApiKit.sln
 
 build_script:
