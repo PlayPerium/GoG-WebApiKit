@@ -11,9 +11,9 @@ init:
   - git config --global core.autocrlf input
 
 install:
-  - dotnet restore
+  - dotnet restore Gog-WebApiKit.sln
 
 build_script:
-  - dotnet build
+  - dotnet build Gog-WebApiKit.sln
 
 test: off
