@@ -9,9 +9,9 @@ init:
 
 install:
   - dotnet --version
-  - dotnet restore Gog-WebApiKit.sln
+  - dotnet restore
 
 build_script:
-  - dotnet build Gog-WebApiKit.sln
+  - dotnet build
 
 test: off
